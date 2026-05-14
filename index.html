@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IT Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="page-title">
+  <h1>IT INFRASTRUCTURE<br>MONITORING DASHBOARD</h1>
+</div>
+
+<div class="dashboard">
+  <div class="content">
+    
+    <div class="card">
+      <h3>WORKSTATION STATUS</h3>
+
+      <div class="responsive">
+        <canvas id="barChart"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>WORKSTATION STATUS</h3>
+
+      <div class="responsive">
+        <canvas id="lineChart"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="middle">
+
+    <div class="card">
+      <h3>NETWORK STATUS</h3>
+
+      <div class="circle-wrapper">
+        <div class="circle-label">Successful</div>
+        <canvas id="successChart" width="220" height="220"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="circle-wrapper">
+        <div class="circle-label">Failing</div>
+        <canvas id="failChart" width="220" height="220"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="stats">
+
+    <div class="mini-card">
+      <h4>ALERT COUNT</h4>
+      <div class="big-number" id="alertCount"></div>
+
+      <canvas id="gauge1"></canvas>
+    </div>
+
+    <div class="mini-card">
+      <h4>DOWN COUNT</h4>
+      <div class="big-number" id="downCount"></div>
+
+      <canvas id="gauge2"></canvas>
+    </div>
+
+    <div class="mini-card">
+      <h4>RESPONSES TIME</h4>
+
+      <div class="time" id="responseTime"></div>
+      <div class="sub">MS</div>
+    </div>
+
+  </div>
+
+</div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>

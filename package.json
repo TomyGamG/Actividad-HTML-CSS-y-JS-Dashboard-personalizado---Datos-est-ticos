@@ -1,0 +1,26 @@
+{
+  "name": "actividad-html-css-y-js-dashboard-personalizado---datos-est-ticos",
+  "version": "1.0.0",
+  "description": "by `Golart Tomas`\r En el siguiente repositorio podremos cer la recreacion del dashboard:\r <img width=\"705\" height=\"527\" alt=\"6e9407d1-21ac-4cba-ab90-98710767ac90\" src=\"https://github.com/user-attachments/assets/db7d7dd7-b499-4d8c-8dfa-62e6c228cacc\" /><br>\r Intentando recrear lo mas exacto posible.",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomyGamG/Actividad-HTML-CSS-y-JS-Dashboard-personalizado---Datos-est-ticos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TomyGamG/Actividad-HTML-CSS-y-JS-Dashboard-personalizado---Datos-est-ticos/issues"
+  },
+  "homepage": "https://github.com/TomyGamG/Actividad-HTML-CSS-y-JS-Dashboard-personalizado---Datos-est-ticos#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

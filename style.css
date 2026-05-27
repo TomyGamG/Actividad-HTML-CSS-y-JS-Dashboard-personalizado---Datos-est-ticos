@@ -152,9 +152,15 @@ canvas{
   max-height:220px !important;
 }
 
+.gauge-container{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+}
+
 #gauge1,
 #gauge2{
-  max-width:160px !important;
-  max-height:80px !important;
-  margin:0 auto;
+    width: 100% !important;
+    height: 120px !important;
 }
